@@ -1,15 +1,23 @@
-html, body{
+body{
   width:;
   height:;
   margin:; 
 }
-.contaainer{
-  margin:;
-  margin-top:;
-  width:;
-  height:;
-  padding-bottom: ;
-  background: #4c4c4c ;
-  border:;
+h1{
+    text-align: center;
+    color:teal;
+}
 
+
+p{
+    color: tomato;
+    font-size: 30px;
+    text-align: center;
+}
+
+.content{
+    background:rgb(156, 11, 156);
+    width: 50%;
+    padding :10px;
+    margin: 100px;
 }
