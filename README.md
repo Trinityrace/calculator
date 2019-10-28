@@ -1,14 +1,26 @@
-- Project name.
-- Project description.
-- Author(s) information.
-- Setup instructions - includes any scripts that need to be run if necessary.
-BDD.
-- Technologies used.
-- Contact information.
-- License and Copyright information.
-- The project code is consistently indented and  follows the language syntax.
-- The project is submitted in time. It should be submitted before 6:00 pm Friday unless otherwise stated.
-- The project code is pushed to Github and the project is deployed to gh-pages.
-- The project name, description, and URL to live site are provided on the Github repository.
-- Commits are made regularly with relevant and clear commit messages associated with them.
-- The project should be polished in a portfolio-quality state.
+## Akan name web application
+### By John kamanja
+
+### Description
+The application takes in the users information and calculates a function which outputs the prediction of the users akan name.
+
+### Setup/Installation Requirements
+- enter users name
+- enter use date of birth
+- enter gender of user
+### Technologies Used
+- used javascipt console and css custom styling
+
+### Support and contact details
+for enquires or help contact me at: trinityrtime@gmail.com
+
+## License
+### MIT License
+
+Copyright (c) [2019] [trinity]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
