@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>doc slider</title>
+
+  <link href="boot/css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/sty.css" rel="stylesheet" type="text/css">
+  
+</head>
+<body>
+  <div class="container">
+       <div class="jumbotron">
+        <div class="row">
+          <div class="navbar"><span>minimalist slider carousel</span></div>
+            <div class="wrapper">
+              <div class="slider"> 
+                <div class="slide"> WELCOME TO AKAN CALCULATOR
+                </div>
+               <div class="slide"> WELCOME TO AKAN CALCULATOR
+               </div>  
+            </div>
+          </div>
+        </div> 
+      </div>
+      <div class="jumbotron"></div>
+        <div class= "row">
+          <hr></hr>
+          <p> This is a web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. 
+              Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. 
+              <a href="https://en.wikipedia.org/wiki/Akan_names">more on akan names</a>         
+          </p>
+        <hr></hr>
+          <h1><strong>AKAN</strong></h1>
+          <p id="output"></p>
+             <form class="frm">
+              <label for="db">Date of birth:</label>
+                <input type="date" id="db" name="date of birth" required><br>
+                <label for="ged">Gender:</label>
+                <input type="radio" id="ged" name="Gender" value="Male"> Male <br>
+                <input type="radio" id="ged2" name="Gender" value="Female">Female<br>
+                <input id = "sb_button" type="submit" onclick="Akancalculator();" value="Calculate">
+                <input id = "sb_button" type="reset" value="Reset">
+            </form>
+          </div>
+       </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
