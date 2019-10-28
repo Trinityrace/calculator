@@ -1,6 +1,11 @@
 .navbar span{
 
 }
+.row{
+  page-break-after: auto;
+
+}
+
 body{
   color:black;
   background: chartreuse;
@@ -31,6 +36,7 @@ body{
   padding: 0 30px 0 30px;
   animation: slideshow 8s linear infinite;
 }
+
 @keyframes slideshow{
   0%{transform: translateX(0);}
   100%{transform: translateX(-100%);}
