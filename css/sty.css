@@ -2,8 +2,11 @@
 
 }
 .row{
-  page-break-after: auto;
-
+  background-color: rgb(52, 201, 7);
+  height: 700px;
+  width: 700px;
+  margin: auto;
+  padding:20px;
 }
 
 body{
