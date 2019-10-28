@@ -48,11 +48,11 @@ Day of the week (d) = ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD 
   // alert(date1);
   var ged1 = document.getElementById("ged").value;
   
-  var date2 = date1.toString(); 
-  var cc = date2.slice(0,2);
-  var yy =date2.slice(2,4);
-  var mm =date2.slice(5,7);
-  var dd =date2.slice(8,10);
+  var date2 = parseInt(date1.toString()); 
+  var cc = parseInt(date2.slice(0,2));
+  var yy = parseInt(date2.slice(2,4));
+  var mm = parseInt(date2.slice(5,7));
+  var dd = parseInt(date2.slice(8,10));
   
   var dow = Math.trunc (( ( (cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(mm+1)/10)) + dd ) % 7);
   alert(dow);
