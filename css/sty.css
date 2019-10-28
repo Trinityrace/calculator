@@ -29,7 +29,7 @@ body{
   position: relative;
   align-items:center;
   background: peru;
-  box-shadow: 0 10px 20px -10px rgba(0,0,0,0.2);
+  box-shadow: 0 10px 10px -10px rgba(0,0,0,0.2);
   display: flex;
   overflow: hidden;
 }
@@ -60,4 +60,11 @@ body{
   right: 0;
   top: 0;
   transform: rotateZ(100deg);
+}
+body{
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#output{
+  widows: 100px;;
 }
