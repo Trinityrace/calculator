@@ -46,9 +46,10 @@ Day of the week (d) = ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD 
 
  function Akancalculator(){
   var date1 = document.getElementById("db").value;
-  // alert(date1);
+  var date2 = new Date(date1)
+  var date3 = date2.getDay();
   var ged1 = document.getElementById("ged");
-  var ged2 = document.getElementById("ged2");
+  var ged2 = document.getElementById("ged3");
   //  for (var n = 0, ln = ged1.length; n < ln; n++){
   //     if(ged1[n].checked){
   //       var genderfinal = ged1[n].value;
@@ -59,20 +60,21 @@ Day of the week (d) = ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD 
       // }
    
   
-  var date2 = date1.toString(); 
-  var cc = parseInt(date2.slice(0,2));
-  var yy = parseInt(date2.slice(2,4));
-  var mm = parseInt(date2.slice(5,7));
-  var dd = parseInt(date2.slice(8,10));
+  // var date2 = date1.toString(); 
+  // var cc = parseInt(date2.slice(0,2));
+  // var yy = parseInt(date2.slice(2,4));
+  // var mm = parseInt(date2.slice(5,7));
+  // var dd = parseInt(date2.slice(8,10));
   
-  var dow = Math.trunc (( ( (cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(mm+1)/10)) + dd ) % 7);
-  var gendfemale = ["Ama","Akosua","Adwoa","Abenaa","Akua","Yaa","Afua"];
-  var gendmale = ["Kwame","Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi"];
+  // var dow = Math.trunc (( ( (cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(mm+1)/10)) + dd ) % 7);
+
+  var gendfemale = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
+  var gendmale = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
   if (ged1.checked==true){
-    alert(gendmale[dow])
+    alert(gendmale[date3])
   }
   else if(ged2.checked==true){
-  alert(gendfemale[dow])
+  alert(gendfemale[date3])
   }
   else{
     alert("Choose gender");

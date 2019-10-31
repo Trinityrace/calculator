@@ -9,11 +9,12 @@
   <link href="boot/css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/sty.css" rel="stylesheet" type="text/css">
   
+
 </head>
 <body>
   <div class="container">
        <div class="jumbotron">
-        <div class="row">
+        <div class="row1">
           <div class="navbar"><span>minimalist slider carousel</span></div>
             <div class="wrapper">
               <div class="slider"> 
@@ -25,28 +26,69 @@
           </div>
         </div> 
       </div>
-      <div class="jumbotron"></div>
+      
+      <div class="jumbotron">
+        
         <div class= "row">
-          <hr></hr>
+            <hr></hr> 
           <p> This is a web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. 
               Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. 
               <a href="https://en.wikipedia.org/wiki/Akan_names">more on akan names</a>         
           </p>
-        <hr></hr>
-          <h1><strong>AKAN</strong></h1>
+        </br><hr>
+      </hr>
+      <!-- button trial to launch akan calculator-->
+          <p>
+              <button class="btn btn-primary" id="cli"><i class="fa fa-calculator icon" aria-hidden="true"
+             
+               style="font-size: 100px;color:aqua;"></i><br>
+               <h1><strong>LAUNCH AKAN</strong></h1></button></br>
+
+
+              <!-- new btn trial -->
+              <!--             
+              <button id="myBtn" class="dropbtn">Dropdown</button>
+              <div id="output" class="output cal">
+              </div> -->
+
+        
+
+             <!-- ends here -->
+
+          </p>
+        
           <p id="output"></p>
-             <form class="frm">
+             <form class="frm" id="frm">
               <label for="db">Date of birth:</label>
                 <input type="date" id="db" name="date of birth" required><br>
                 <label for="ged">Gender:</label>
                 <input type="radio" id="ged" name="Gender" value="Male"> Male <br>
-                <input type="radio" id="ged2" name="Gender" value="Female">Female<br>
+                <input type="radio" id="ged3" name="Gender" value="Female">Female<br>
                 <input id = "sb_button" type="submit" onclick="Akancalculator();" value="Calculate">
                 <input id = "sb_button" type="reset" value="Reset">
+              
             </form>
           </div>
        </div>
     </div>
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js">
+    </script>
     <script src="js/script.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <!--Get your own code at fontawesome.com-->
+  
+    <!--  script for btn toggling akan calc-->
+    <script> 
+        
+         $(document).ready(function(){
+
+          $("#cli").on("click", function(){
+            $("#frm").toggle(3000);
+
+          });
+
+          });
+
+       </script>
 </body>
 </html>

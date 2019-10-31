@@ -16,6 +16,9 @@ This web application that takes a user's birthday and calculates the day of the 
 ### Support and contact details
 for enquires or help contact me at: trinityrtime@gmail.com
 
+## Kown Bugs
+js code for output not perfected.
+
 ## License
 ### MIT License
 
